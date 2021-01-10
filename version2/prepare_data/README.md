@@ -62,6 +62,6 @@ Note: Data for 2020-04-20, 2020-05-29, 2020-10-08 and 2020-12-11 through 2020-12
 ## files in google drive
  ( Note: only Developers has access to this folder path)
  *Social Distancing data :*
-* /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/<<state>>_SocialDistancingDataJan10.csv -> eg., NY_SocialDistancingDataJan10.csv
+* /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/`<<state>>`_SocialDistancingDataJan10.csv -> eg., NY_SocialDistancingDataJan10.csv, CA_SocialDistancingDataJan10.csv, TX_SocialDistancingDataJan10.csv
 
 
