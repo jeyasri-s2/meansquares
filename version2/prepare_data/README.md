@@ -61,21 +61,23 @@ Note: Data for 2020-04-20, 2020-05-29, 2020-10-08 and 2020-12-11 through 2020-12
 
 ## files in google drive
  ( Note: only Developers has access to this folder path)
- 
+
  **Social Distancing data :**
+
+* colab: Load_Social_distancing_metrics.ipynb
 * /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/`<<state>>`_SocialDistancingDataJan10.csv -> eg., NY_SocialDistancingDataJan10.csv, CA_SocialDistancingDataJan10.csv, TX_SocialDistancingDataJan10.csv
 
  **COVID-19 and population data :**
 
+* colab: Load_CovidData.ipynb
 * /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/`<<state>>`_CovidDataJan10.csv -> Eg., CA_CovidDataJan10.csv, NY_CovidDataJan10.csv, TX_CovidDataJan10.csv
 
 **Google Mobility Data:**
 
+* colab: Load_Google_MobilityData.ipynb
 * /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/`<<state>>`_GoogleMobilityDataJan10.csv -> Eg., NY_GoogleMobilityDataJan10.csv, CA_GoogleMobilityDataJan10.csv, TX_GoogleMobilityDataJan10.csv
 
 **Mask_rule data**
 
+* colab: Load_Mask_Rule.ipynb
 * /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/Mask_Rule_Jan10.csv
-
-
-
