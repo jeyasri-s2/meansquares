@@ -58,3 +58,10 @@ Note: Data for 2020-04-20, 2020-05-29, 2020-10-08 and 2020-12-11 through 2020-12
 * socialdistancing_file = wget.download(socialdistancing_url)
 * socialdistancing_data = pd.read_csv(socialdistancing_file,low_memory=False)
 * socialdistancing_data.tail(2)
+
+## files in google drive
+ ( Note: only Developers has access to this folder path)
+ *Social Distancing data :*
+* /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/<<state>>_SocialDistancingDataJan10.csv -> eg., NY_SocialDistancingDataJan10.csv
+
+
