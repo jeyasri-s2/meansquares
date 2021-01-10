@@ -1,6 +1,6 @@
 # Data Sources:
 
-* **Combined data:** from merging all the listed datasets-
+* **1. Combined data:** from merging all the listed datasets-
 > 1. Social Distancing
 > 2. Google mobility data,
 > 3. Covid Cases- John Hopkins university
@@ -8,7 +8,7 @@
 > 5. Mask data for rule
 
 
-*  **Inertia Data:** Merging Social Distancing Inertia (Maryland data) and Covid data integration
+*  **2. Inertia Data:** Merging Social Distancing Inertia (Maryland data) and Covid data integration
 
 
 ## County Population + FIPS Code:
