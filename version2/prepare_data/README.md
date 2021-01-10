@@ -64,4 +64,6 @@ Note: Data for 2020-04-20, 2020-05-29, 2020-10-08 and 2020-12-11 through 2020-12
  *Social Distancing data :*
 * /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/`<<state>>`_SocialDistancingDataJan10.csv -> eg., NY_SocialDistancingDataJan10.csv, CA_SocialDistancingDataJan10.csv, TX_SocialDistancingDataJan10.csv
 
+* /content/drive/Shared drives/CMPE 295- Master Project/projectdata-2021/`<<state>>`_CovidDataJan10.csv -> Eg., CA_CovidDataJan10.csv, NY_CovidDataJan10.csv, TX_CovidDataJan10.csv
+
 
