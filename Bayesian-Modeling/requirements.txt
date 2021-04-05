@@ -1,0 +1,43 @@
+aesara==2.0.5
+arviz @ file:///tmp/build/80754af9/arviz_1613566339244/work
+cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
+cachetools==4.2.1
+certifi==2020.12.5
+cftime @ file:///opt/concourse/worker/volumes/live/19aa8553-ef83-4f8e-40da-167f8acd0344/volume/cftime_1613248241482/work
+cycler==0.10.0
+dill==0.3.3
+fastprogress @ file:///home/conda/feedstock_root/build_artifacts/fastprogress_1597932925331/work
+filelock==3.0.12
+h5py @ file:///Users/runner/miniforge3/conda-bld/h5py_1609497523302/work
+joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
+kiwisolver @ file:///opt/concourse/worker/volumes/live/1e6d28e8-da14-4365-7344-567a05db7efc/volume/kiwisolver_1612282399491/work
+Mako @ file:///home/conda/feedstock_root/build_artifacts/mako_1610659158978/work
+MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1610127518065/work
+matplotlib @ file:///opt/concourse/worker/volumes/live/41e8cd50-031f-4dda-5787-dd3c4f4e0f08/volume/matplotlib-suite_1613407855571/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+netCDF4 @ file:///opt/concourse/worker/volumes/live/036bf26e-3598-4e54-730a-657eff007636/volume/netcdf4_1613684171674/work
+numpy @ file:///opt/concourse/worker/volumes/live/a1b5ea96-b05c-40ba-5dfb-4542ece1c186/volume/numpy_and_numpy_base_1603491228242/work
+olefile==0.46
+packaging @ file:///tmp/build/80754af9/packaging_1611952188834/work
+pandas==1.2.3
+patsy==0.5.1
+Pillow @ file:///opt/concourse/worker/volumes/live/0aff898a-aba9-4321-76c2-58d629e96356/volume/pillow_1617386155885/work
+pygpu==0.7.6
+pymc3==3.9.3
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+scikit-learn @ file:///opt/concourse/worker/volumes/live/4b416fcf-2a1b-4a30-781a-c588a35f6ca3/volume/scikit-learn_1614446663856/work
+scipy @ file:///opt/concourse/worker/volumes/live/cd12a34b-67bb-4e81-5e11-d0d209d4b37d/volume/scipy_1616703203371/work
+seaborn @ file:///tmp/build/80754af9/seaborn_1608578541026/work
+six @ file:///opt/concourse/worker/volumes/live/f983ba11-c9fe-4dff-7ce7-d89b95b09771/volume/six_1605205318156/work
+statsmodels @ file:///opt/concourse/worker/volumes/live/ad2325f1-005b-4882-5896-b1e5f01ee884/volume/statsmodels_1614023733346/work
+Theano @ file:///Users/runner/miniforge3/conda-bld/theano_1604228557788/work
+Theano-PyMC==1.1.0
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+tornado @ file:///opt/concourse/worker/volumes/live/d531d395-893c-4ca1-6a5f-717b318eb08c/volume/tornado_1606942307627/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1615925068909/work
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+xarray @ file:///tmp/build/80754af9/xarray_1614625053385/work
