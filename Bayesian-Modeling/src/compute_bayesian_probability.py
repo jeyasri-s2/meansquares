@@ -66,6 +66,8 @@ if __name__ == '__main__':
         base_county_name = row['base_county_name']
         base_state_code = row['base_state_code']
         base_county_code = row['base_county_code']
+        similarity_file = row['similarity_file']
+
         print(similar_county_name,similar_state_name)
 
         #print(prepare_sarimax_data(data))
@@ -98,6 +100,7 @@ if __name__ == '__main__':
         output_filename = similar_state_code+'_'+similar_county_code+'_Bayesian_inference_'+datetime.now().strftime("%b%d")+'.csv'
         # Saving Bayesian inference result
         trace_df.to_csv('../output/'+output_filename,index=False)
+        print("values: ",similarity_file, base_county_name, similar_county_name)
 
         cosine_distance = get_cosine_distance(similarity_file,similar_county_name,base_county_name)
         pvals = trace_df.iloc[:, :3].mean(axis = 0)

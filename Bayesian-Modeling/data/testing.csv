@@ -1,0 +1,5 @@
+id,similar_state_name,similar_county_name,similar_state_code,similar_county_code,base_state_name,base_county_name,base_state_code,base_county_code,similarity_file
+1,"Oregon","Washington County","OR","WC","California","Solano County","CA","SL","OR_SuperData_With_SimilarityScore_Mar26.csv"
+2,"Iowa","Polk County","IA","PL","Wisconsin","Milwaukee County","WI","ML","IA_SuperData_With_SimilarityScore_Mar31.csv"
+3,"New Jersey","Bergen County","NJ","BR","New York","Queens County","NY","QU","NJ_SuperData_With_SimilarityScore_Mar31.csv"
+4,"Arkansas","Pulaski County","AR","PU","Texas","Collin County","TX","CL","AR_SuperData_With_SimilarityScore_Apr01.csv"
