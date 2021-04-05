@@ -49,9 +49,9 @@ def get_population():
 
 
 if __name__ == '__main__':
-    result_df = pd.DataFrame(columns = ['similar_state', 'base_state', 'similar_county','base_county',
+    error_metric_df = pd.DataFrame(columns = ['similar_state', 'base_state', 'similar_county','base_county',
                                        'minimal_probability','nochange_probability','widespread_probability',
-                                       'real_minimal','real_nochange','real_widespread','MSE','RMSE','confusion_matrix'])
+                                       'real_minimal','real_nochange','real_widespread','MSE','RMSE'])
 
 
     data_files = pd.read_csv('../data/testing.csv',low_memory=False)
@@ -74,8 +74,8 @@ if __name__ == '__main__':
         sarimax_data = prepare_sarimax_data(data)
         print(sarimax_data.head())
         train_df, test_df, true_df= train_test_split(sarimax_data)
-        #p,d,q,P,D,Q = determine_hyperparameter(train_df, test_df)
-        p,d,q,P,D,Q = 0,1,1,0,1,1
+        p,d,q,P,D,Q = determine_hyperparameter(train_df, test_df)
+        #p,d,q,P,D,Q = 0,1,1,0,1,1
 
         yhat = train_SARIMAX(train_df, test_df,p,d,q,P,D,Q )
         result_df = SARIMAX_result_df(train_df, yhat, similar_state_name, similar_county_name)
@@ -135,17 +135,18 @@ if __name__ == '__main__':
         MSE = mean_percent_error_metric(y_test, y_pred)
         RMSE = root_mean_percent_error(y_test, y_pred)
         #print(confusion_matrix(y_test, y_pred, labels=labels))
-        confusion_matrix_arr = confusion_matrix(y_test, y_pred, labels=labels)
+        #confusion_matrix_arr = confusion_matrix(y_test, y_pred, labels=labels)
 
         print("MSE ", MSE)
         print("RMSE" ,RMSE)
-        print("confusion_matrix_arr ",confusion_matrix_arr)
-        final_df = pd.DataFrame(columns = ['index','similar_state', 'base_state', 'similar_county','base_county',
-                                            'minimal_probability','nochange_probability','widespread_probability',
-                                            'real_minimal','real_nochange','real_widespread','MSE','RMSE','confusion_matrix'])
+        #print("confusion_matrix_arr ",confusion_matrix_arr)
+        final_df = {}
+        #pd.DataFrame(columns = ['index','similar_state', 'base_state', 'similar_county','base_county',
+        #                                   'minimal_probability','nochange_probability','widespread_probability',
+        #                                   'real_minimal','real_nochange','real_widespread','MSE','RMSE'])
 
-
-        final_df['index'] = row['id']
+        
+        final_df['index'] = index+1
         final_df['similar_state'] = similar_state_name
         final_df['base_state'] = base_state_name
         final_df['similar_county'] = similar_county_name
@@ -158,12 +159,17 @@ if __name__ == '__main__':
         final_df['real_widespread'] = widespread
         final_df['MSE'] = MSE
         final_df['RMSE'] = RMSE
-        final_df['confusion_matrix'] = confusion_matrix_arr
+        #final_df['confusion_matrix'] = confusion_matrix_arr
 
-        print(final_df)
-        result_df = result_df.append(final_df, ignore_index=True)
-        break
+        df = pd.DataFrame(data= final_df, index=[index])
+        print(df)
+
+
+        error_metric_df = error_metric_df.append(df)
+        print('error_metric_df: ',error_metric_df.shape)
+
+        #break
     #
-    print(result_df.shape)
-    result_df.to_csv('../output/allregions_bayesian_metrics.csv')
+    print(error_metric_df.shape)
+    error_metric_df.to_csv('../output/allregions_bayesian_metrics.csv')
 

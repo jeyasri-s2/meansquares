@@ -10,7 +10,7 @@ def get_cosine_distance(filename,similar_county_name,base_county_name):
     return cosine_distance
 
 
-def display_probs(d, labels):
+def display_probs(d):
     values = []
     for key, value in d.items():
         print(f'Labels: {key:8} Prevalence: {100*value:.2f}%.')
