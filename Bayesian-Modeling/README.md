@@ -22,7 +22,7 @@ Update testing.csv file with the proper columns. The sample csv file is in the r
 
 
 ## command to run the pipeline
-cd Bayesian-Modeling/src/
-`python compute_bayesian_probability.py`
+- `cd Bayesian-Modeling/src/`
+- `python compute_bayesian_probability.py`
 
 
