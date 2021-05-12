@@ -20,3 +20,7 @@ The pipeline follows the below workflow
 ## Dashboard UI Architecture
 <img src="https://github.com/aarsanjani/meansquares/blob/master/version2/images/Streamlit-diagram.png?raw=true" width="800" height="400">
 
+## Execution
+
+* Source code is executed with Google colab
+* Python and dashboard source code has requirements and readme file
