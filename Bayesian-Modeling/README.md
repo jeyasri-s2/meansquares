@@ -6,7 +6,7 @@
 
 Update testing.csv file with the proper columns. The sample csv file is in the repository.
 
-## What are the tasks completed in this pipeline
+## Tasks completed in this pipeline
 
 * SARIMAX Time-series prediction for each county
   - including fine-tuning hyperparameter for best performance
