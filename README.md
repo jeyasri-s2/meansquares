@@ -6,12 +6,14 @@
 * Subarna Chowdhury Soma (subarnachowdhury.soma@sjsu.edu)
 
 ## Folder Structure:
-* version1-analysis - has CMPE295W Fall 2020 Project work
-* version2 - has CMPE295B Spring 2021 Project work
-* dashboard - has the webapp source code
+* 'version1-analysis' - has CMPE295W Fall 2020 Project work
+* 'version2' - has CMPE295B Spring 2021 Project work
+* 'dashboard' - has the webapp source code
 
 
 ## Project Workflow
+
+The pipeline follows the below workflow
 
 <img src="https://github.com/aarsanjani/meansquares/blob/master/version2/images/ProjectWorkflow.png?raw=true" width="1200" height="400">
 
